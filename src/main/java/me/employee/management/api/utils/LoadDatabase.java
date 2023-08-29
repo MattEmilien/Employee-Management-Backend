@@ -10,10 +10,10 @@ public class LoadDatabase {
 
     @Bean
         CommandLineRunner initDatabase(EmployeeService employeeService) {
-
+            // Load test users
             return args -> {
-                employeeService.addEmployee(new Employee("Bilbo Baggins", "burglar", "default", 1, false));
-                employeeService.addEmployee(new Employee("Frodo Baggins", "thief", "admin", 2, true));
+                employeeService.addEmployee(new Employee("Ares", "Ares", "Elite", "Ares", "admin", 1, true));
+
             };
         }
     }
