@@ -18,4 +18,4 @@ Spring Boot, Spring Security, JWT, MongoDB
 | HTTP Method | URL Path                         | Description                   |
 |-------------|----------------------------------|-------------------------------|
 | POST        | /api/auth/register          | User Registration     |
-| POST        | /api/v1/auth/authenticate   | User Authentication   |
+| POST        | /api/auth/authenticate   | User Authentication   |
